@@ -1,7 +1,8 @@
 body {
+    
     color: #212121;
     font-family: 'Roboto';
-    font-size: 14px;   
+    font-size: 14px;
 }
 
 :root {
@@ -23,11 +24,15 @@ header {
 }
 
 .container {
+    width: 1200px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-left: 215px;
-    margin-right: 215px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80px;
 }
 
 .main-nav {
@@ -44,6 +49,8 @@ header {
     line-height: 1.19;
     letter-spacing: 0.03em;
     text-decoration: none;
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 
 span {
@@ -62,6 +69,18 @@ span {
 
 .list-item:not(:last-child) {
     margin-right: 50px;
+}
+
+.container-two {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icon-ter {
+    margin-left: 40px;
 }
 
 .item {
@@ -94,7 +113,7 @@ span {
     margin-left: auto;
 }
 
-.link + .link {
+.link+.link {
     margin-left: 50px;
 }
 
@@ -108,16 +127,16 @@ span {
 
 /* ------------------------------------------------------section-one */
 .section-one {
-    width: 1600px;
     height: 600px;
     background-color: #2F303A;
-    text-align: center;
+    
 }
 
 h1 {
+    width: 696px;
     padding-top: 200px;
-    padding-left: 452px;
-    padding-right: 452px;
+    padding-left: 237px;
+    padding-right: 237px;
     margin-top: 0;
     margin-bottom: 0;
     color: #ffffff;
@@ -129,12 +148,11 @@ h1 {
     text-transform: uppercase;
 }
 
-button {
-    min-width: 216px;
-    height: 50px;
+.batton-one {
+    
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-
+    border-style: none;
     display: inline-block;
     color: #FFFFFF;
     background-color: #2196F3;
@@ -142,12 +160,14 @@ button {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-    text-align: center;
+    margin-left: 477px;
     letter-spacing: 0.06em;
     cursor: pointer;
     padding: 10px 32px;
     margin-top: 30px;
 }
+
+
 
 /* ------------------------------------------------------section-two */
 .section-title {
@@ -165,8 +185,7 @@ button {
 .div-container {
     display: flex;
     width: 1600px;
-    margin-left: 215px;
-    margin-left: 215px;
+    
 }
 
 .text-item:not(:last-child) {
@@ -208,8 +227,7 @@ button {
     list-style: none;
     display: flex;
     margin-top: 50px;
-    margin-left: 215px;
-    margin-right: 215px;
+    
 }
 
 .section-three-image {
@@ -237,18 +255,23 @@ button {
     text-align: center;
     letter-spacing: 0.03em;
     margin-top: 118px;
+    padding-top: 94px;
 }
 
 .section-four-list {
     display: flex;
     list-style: none;
     margin-top: 50px;
-    margin-left: 215px;
-    margin-right: 215px;
+    
 }
 
 .list-name {
-    padding-bottom: 94px;
+    background-color: #ffffff;
+    margin-bottom: 94px;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+     0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .list-name:not(:last-child) {
@@ -266,6 +289,7 @@ button {
     line-height: 1.19;
     letter-spacing: 0.03em;
     margin-top: 30px;
+    text-align: center;
 }
 
 .profession {
@@ -274,18 +298,18 @@ button {
     line-height: 1.19;
     letter-spacing: 0.03em;
     margin-top: 10px;
+    text-align: center
 }
 
 /* ------------------------------------------------------footer */
 footer {
     background-color: #2F303A;
-    width: 1600px;
     height: 252px;
 }
 
 .web-link {
     margin-top: 60px;
-    margin-left: 215px;
+    
     margin-bottom: 20px;
 }
 
@@ -315,7 +339,7 @@ footer {
     line-height: 1.71;
     letter-spacing: 0.03em;
     text-decoration: none;
-    margin-left: 215px;
+    
     margin-bottom: 9px;
 }
 
@@ -329,7 +353,7 @@ footer {
     line-height: 1.71;
     letter-spacing: 0.03em;
     text-decoration: none;
-    margin-left: 215px;
+    
     margin-bottom: 9px;
 }
 
@@ -340,7 +364,7 @@ footer {
     line-height: 1.71;
     letter-spacing: 0.03em;
     text-decoration: none;
-    margin-left: 215px;
+    
 }
 
 .address:hover {
@@ -398,24 +422,37 @@ footer {
 .portfolio-list {
     display: flex;
     list-style: none;
-    margin-left: 537px;
+    margin-left: 322px;
 }
 
 .portfolio-item {
+    margin-right: 8px;
     padding: 0;
 }
 
-.portfolio-item {
-    width: 68px;
-    color: #212121;
-    background-color: #ffffff;
-    font-family: 'Roboto';
-    font-weight: 500;
+.button-two {
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    padding: 6px 22px;
+    font-family: inherit;
     font-size: 16px;
-    line-height: 1.63;
     text-align: center;
+    cursor: pointer;
+    padding: 10px 32px;
+    margin-top: 30px;
+    border-style: none;
+    color: #212121;
+    background-color: #F5F4FA;
+    font-weight: 500;
+    line-height: 1.63;
     letter-spacing: 0.03em;
 }
+
+.button-mark {
+    margin-right: 0;
+}
+
 
 .portfolio-item:hover {
     color: #FFFFFF;
@@ -426,14 +463,13 @@ footer {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
-    margin-left: 215px;
-    margin-right: 215px;
     margin-top: 56px;
 }
 
 .image-list-port {
     margin-right: 30px;
     margin-bottom: 30px;
+    border: 1px solid #EEEEEE;
 }
 
 .image-list-port:nth-child(3n) {
@@ -445,7 +481,7 @@ footer {
 }
 
 .portfolio-image {
-    width: 370px;
+    width: 364px;
     height: 294px;
     margin-bottom: 20px;
 }
